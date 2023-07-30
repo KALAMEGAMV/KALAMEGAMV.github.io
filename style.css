@@ -132,6 +132,8 @@ nav ul li a:hover{
     transform: translateY(-50%);  
  
 } 
+.Content a
+{margin-right:10px;}
 h1{ 
     color: white; 
     margin: 20px 0px 20px; 
@@ -201,6 +203,7 @@ h4{
     align-items: center; 
     justify-content: space-around; 
 } 
+.main img{ border-radius:10px;} 
 .about-text h2{ 
     color: orangered; 
     font-size: 50px; 
@@ -530,6 +533,13 @@ footer h2{
   @media  screen and (max-width:991px) {
 
     body{width:120%}
+    .main img{ 
+        width: 35%; 
+        height:45%;
+        margin-right:10px; 
+        border-radius:10px;
+    } 
+     
     .projects{ 
         background-color: #101010; 
         width: auto; 
@@ -550,6 +560,8 @@ footer h2{
         /* padding-top: 45px; 
         padding-right: 13%; 
         padding-left: 7%;  */
-    } 
+    }
+    .Content a
+{margin-right:10px;} 
   }
  
