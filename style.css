@@ -42,6 +42,7 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    padding-top:50px;
 } 
 nav{ 
     display: flex; 
@@ -520,6 +521,7 @@ footer h2{
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover; 
+       
     }  
     nav{ 
         display: flex; 
@@ -536,5 +538,17 @@ footer h2{
         background-color: #101010; 
      
     } 
+    .box{ 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        min-height: 420px; 
+    } 
+    
+  }
+  header{
+    /* background -image: */
+    min-height:100px;
+    padding-top:25px;
     
   }
