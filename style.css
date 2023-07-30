@@ -29,8 +29,8 @@
   }
 }
 *{ 
-    padding: 0; 
-    margin: 0; 
+    padding: 0px; 
+    margin: 0px; 
     font-family: 'Josefin Sans', sans-serif; 
     box-sizing: border-box; 
 } 
@@ -47,9 +47,11 @@ nav{
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
-    padding-top: 45px; 
+    padding :auto;
+    margin:auto;
+    /* padding-top: 45px; 
     padding-right: 13%; 
-    padding-left: 7%; 
+    padding-left: 7%;  */
 } 
 .logo{ 
     font-size: 40px; 
@@ -237,8 +239,8 @@ button:hover{
     min-height: 420px; 
 } 
 .card{ 
-    height: 370px; 
-    width: 335px; 
+    height: auto:
+    width: auto; 
     padding: 20px 35px; 
     background: #191919; 
     border-radius: 20px; 
@@ -501,7 +503,7 @@ footer h2{
     50% { border-color: orange }
   }
 
- @media screen and (max-width:992px) {
+  @media screen and (max-width:576px) {
     body{width:120%}
     .Content{ 
         position:absolute; 
@@ -510,6 +512,7 @@ footer h2{
         transform: translateY(-50%);  
      }
      .hero{ 
+        /* width: 0px;height: 0px; */
         height: 120vh; 
         width: 100%; 
         background-image: url(black.jpg); 
