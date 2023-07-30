@@ -501,16 +501,16 @@ footer h2{
     50% { border-color: orange }
   }
 
-  @media screen and (max-width:992px) {
+ @media screen and (max-width:992px) {
     body{width:120%}
     .Content{ 
         position:absolute; 
-        top: 40%; 
+        top: 50%; 
         left: 8%; 
         transform: translateY(-50%);  
      }
      .hero{ 
-        height: 70vh; 
+        height: 120vh; 
         width: 100%; 
         background-image: url(black.jpg); 
         object-fit: contain; 
@@ -518,4 +518,20 @@ footer h2{
         background-repeat: no-repeat; 
         background-size: cover; 
     }  
+    nav{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between; 
+        padding-top: 45px; 
+        padding-right: 9%; 
+        padding-left: 7%; 
+    } 
+    .about{ 
+        width: 100%; 
+        padding: 100px 0px; 
+        height:120vh;
+        background-color: #101010; 
+     
+    } 
+    
   }
