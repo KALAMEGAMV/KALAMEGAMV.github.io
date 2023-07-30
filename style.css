@@ -42,12 +42,18 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    padding-top:50px;
+   
 } 
 nav{ 
     display: flex; 
+    position:fixed;
+width:100%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left:10px;
     align-items: center; 
     justify-content: space-between; 
+    background-color: rgba(128, 128, 128, 0.76);
     padding :auto;
     margin:auto;
     /* padding-top: 45px; 
@@ -68,7 +74,7 @@ nav ul li{
  
     list-style: none; 
     display: inline-block; 
-    padding: 10px 25px; 
+    padding: 5px 15px; 
 } 
 nav ul li a{ 
  
@@ -97,6 +103,24 @@ nav ul li a:hover{
 } 
  
 .btn:hover{ 
+    background-color:greenyellow; 
+    color:white;
+    transform: scale(1.2); 
+} 
+.btn1{ 
+    color: white; 
+    background-color: red; 
+    text-decoration: none; 
+    border: 2px solid transparent; 
+    padding:10px 15px; 
+    border-radius: 25px; 
+    font-weight: bold; 
+    transition: transform.4s; 
+    text-align: center;
+    /* padding-bottom: 10px; */
+} 
+ 
+.btn1:hover{ 
     background-color:greenyellow; 
     color:white;
     transform: scale(1.2); 
@@ -163,7 +187,7 @@ h4{
 } 
 .about-img{ 
     height: auto; 
-    width: 100%; 
+    width: auto; 
 } 
 .about-text{ 
     width: 550px; 
@@ -226,7 +250,6 @@ button:hover{
  
     color: white; 
     font-size: 40px; 
-    width: 1130px; 
     margin: 30px auto; 
     position: relative; 
     text-align: center; 
@@ -240,7 +263,7 @@ button:hover{
     min-height: 420px; 
 } 
 .card{ 
-    height: 370px; 
+    height: auto; 
     width: 335px; 
     padding: 20px 35px; 
     background: #191919; 
@@ -459,7 +482,7 @@ footer h2{
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
     font-size: 40px;
   }
-  .waviy h1 {
+  .waviy span {
     font-family: 'Alfa Slab One', cursive;
     position: relative;
     display: inline-block;
@@ -478,19 +501,19 @@ footer h2{
     }
   }
 
-  .typewriter h1 {
+  /* .typewriter h1 {
     color: #fff;
     font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; /* Ensures the content is not revealed until the animation 
+    border-right: .15em solid orange; /* The typwriter cursor 
+    white-space: nowrap; /* Keeps the content on a single line 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens 
+    letter-spacing: .15em; /* Adjust as needed 
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
       
-  }
+  } */
   
   /* The typing effect */
   @keyframes typing {
@@ -504,51 +527,29 @@ footer h2{
     50% { border-color: orange }
   }
 
-  @media screen and (max-width:992px) {
+  @media  screen and (max-width:991px) {
+
     body{width:120%}
-    .Content{ 
-        position:absolute; 
-        top: 50%; 
-        left: 8%; 
-        transform: translateY(-50%);  
-     }
-     .hero{ 
-        /* width: 0px;height: 0px; */
-        height: 120vh; 
-        width: 100%; 
-        background-image: url(black.jpg); 
-        object-fit: contain; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-size: cover; 
-       
-    }  
-    nav{ 
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between; 
-        padding-top: 45px; 
-        padding-right: 9%; 
-        padding-left: 7%; 
-    } 
-    .about{ 
-        width: 100%; 
-        padding: 100px 0px; 
-        height:120vh;
+    .projects{ 
         background-color: #101010; 
+        width: auto; 
      
     } 
-    .box{ 
+    nav{ 
         display: flex; 
-        justify-content: center; 
+        position:fixed;
+    width:auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left:auto;
         align-items: center; 
-        min-height: 420px; 
+        justify-content: space-between; 
+        background-color: rgba(128, 128, 128, 0.76);
+        padding :auto;
+        margin:auto;
+        /* padding-top: 45px; 
+        padding-right: 13%; 
+        padding-left: 7%;  */
     } 
-    
   }
-  header{
-    /* background -image: */
-    min-height:100px;
-    padding-top:25px;
-    
-  }
+ 
