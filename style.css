@@ -239,8 +239,8 @@ button:hover{
     min-height: 420px; 
 } 
 .card{ 
-    height: auto:
-    width: auto; 
+    height: 370px; 
+    width: 335px; 
     padding: 20px 35px; 
     background: #191919; 
     border-radius: 20px; 
@@ -503,7 +503,7 @@ footer h2{
     50% { border-color: orange }
   }
 
-  @media screen and (max-width:576px) {
+  @media screen and (max-width:992px) {
     body{width:120%}
     .Content{ 
         position:absolute; 
