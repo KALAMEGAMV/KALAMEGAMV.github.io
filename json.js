@@ -12,7 +12,7 @@ function sendmail(){
       
       emailjs.send("service_wlr75pm","template_kpnfddr",contactParams,"5ccNrXPhuNNAhiDg0")
       .then(function(res){
-        alert("Success "+res.status);
+        alert("Your Message Successfully sent.. "+res.status);
       },function(err){
         alert("failed "+err.status);
       });
